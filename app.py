@@ -43,5 +43,4 @@ def scraper(site, account, repo, metadata):
         'pull_requests': counters[1].contents[0],
     })
 
-if __name__ == '__main__':
-    app.run()
+app.run()
