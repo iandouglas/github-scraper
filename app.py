@@ -43,4 +43,4 @@ def scraper(site, account, repo, metadata):
         'pull_requests': counters[1].contents[0],
     })
 
-app.run()
+app.run(port=80)
