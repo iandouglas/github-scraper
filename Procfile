@@ -1,1 +1,1 @@
-web: gunicorn github-scraper:app
+web: gunicorn app:app
