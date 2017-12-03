@@ -27,7 +27,7 @@ def scraper(site, account, repo, metadata):
 
     r = requests.get(url)
     soup = BeautifulSoup(r.text, "html.parser")
-    counters = soup.select(".counter")
+    counters = soup.select(".Counter")
     counter_position = None
 
     if metadata:
